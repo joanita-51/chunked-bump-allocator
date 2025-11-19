@@ -1,0 +1,18 @@
+[package]
+name = "chunked-bump-allocator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.5"
+bumpalo = "3.14"
+
+[[bench]]
+name = "comparison"
+harness = false 
+
+[[bench]]
+name = "benchmarks"
+harness = false
